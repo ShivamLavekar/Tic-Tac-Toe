@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="tac.css">
+
+    <script src="toe.js"></script>
+
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <p>Have Fun</p>
+    <p>First player starts as <b>Player x</b> <br><br> Second player start as <b>Player 0</b></p>
+    <div class="game">
+        <div class="r1">
+            <input type="text" value="" id="b1" onclick="btn(),fuc1();" readonly>
+            <input type="text" value="" id="b2" onclick="fuc2(),btn();" readonly>
+            <input type="text" value="" id="b3" onclick="fuc3(), btn();" readonly>
+        </div>
+        <div class="r1">
+            <input type="text" value="" id="b4" onclick="fuc4(), btn();" readonly>
+            <input type="text" value="" id="b5" onclick="fuc5(), btn();" readonly>
+            <input type="text" value="" id="b6" onclick="fuc6(), btn();" readonly>
+        </div>
+        <div class="r1">
+            <input type="text" value="" id="b7" onclick="fuc7(), btn();" readonly>
+            <input type="text" value="" id="b8" onclick="fuc8(), btn();" readonly>
+            <input type="text" value="" id="b9" onclick="fuc9(), btn();" readonly>
+        </div>
+    </div>    
+        <button id="reset" onclick="fuc10()">Reset</button>
+    <p id="demo">ENJOY</p>
+</body>
+</html>
